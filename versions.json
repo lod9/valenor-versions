@@ -1,13 +1,4 @@
 {
   "$comment": "Valenor Studio version feed, read by versionChecker.lua. Updated by Valenor Portal.",
-  "resources": {
-    "v-selftest": {
-      "version": "0.0.1",
-      "updated": "2026-11-05",
-      "changes": [
-        "portal write test"
-      ],
-      "download": "https://portal.cfx.re/assets/granted-assets"
-    }
-  }
+  "resources": {}
 }
