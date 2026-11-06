@@ -1,4 +1,13 @@
 {
   "$comment": "Valenor Studio version feed, read by versionChecker.lua. Updated by Valenor Portal.",
-  "resources": {}
+  "resources": {
+    "v-loadingscreenv2": {
+      "version": "2.0.3",
+      "updated": "2026-11-06",
+      "changes": [
+        "Added translations for 26 languages."
+      ],
+      "download": "https://portal.cfx.re/assets/granted-assets"
+    }
+  }
 }
