@@ -2,9 +2,18 @@
   "$comment": "Valenor Studio version feed, read by versionChecker.lua. Updated by Valenor Portal.",
   "resources": {
     "v-appearancev2": {
-      "version": "2.0.0",
-      "updated": "2026-11-14",
-      "changes": [],
+      "version": "2.0.1",
+      "updated": "2026-11-22",
+      "changes": [
+        "Fixed the make-up and tattoo colour that could be lost or reset when a character changed clothes.",
+        "Fixed clothing tints and layered shirts, vests and coats not being reapplied correctly after changing or toggling outer clothes.",
+        "Fixed face make-up and face overlays being skipped when the head was not ready yet, and fixed morph values sometimes not being saved for twin morphs.",
+        "Fixed other players seeing a different outfit, shirt or fitted body than the owner, because worn pieces are now synced to nearby players.",
+        "Fixed the look being reapplied after a spawn, character selection or reload, so the clothing stays on.",
+        "Fixed hogtied, lassoed and dragged players being able to open the shop or clothing menu.",
+        "Improved the appearance sync to other players by only sending updates when the anchor data actually changed.",
+        "Added a Shared.Sync.Enabled option to turn off drawing face make-up, face shape and height on other players' peds."
+      ],
       "download": "https://portal.cfx.re/assets/granted-assets"
     },
     "v-emotemenuv2": {
