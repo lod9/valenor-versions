@@ -2,17 +2,19 @@
   "$comment": "Valenor Studio version feed, read by versionChecker.lua. Updated by Valenor Portal.",
   "resources": {
     "v-appearancev2": {
-      "version": "2.0.1",
-      "updated": "2026-11-22",
+      "version": "2.0.2",
+      "updated": "2026-11-26",
       "changes": [
-        "Fixed the make-up and tattoo colour that could be lost or reset when a character changed clothes.",
-        "Fixed clothing tints and layered shirts, vests and coats not being reapplied correctly after changing or toggling outer clothes.",
-        "Fixed face make-up and face overlays being skipped when the head was not ready yet, and fixed morph values sometimes not being saved for twin morphs.",
-        "Fixed other players seeing a different outfit, shirt or fitted body than the owner, because worn pieces are now synced to nearby players.",
-        "Fixed the look being reapplied after a spawn, character selection or reload, so the clothing stays on.",
-        "Fixed hogtied, lassoed and dragged players being able to open the shop or clothing menu.",
-        "Improved the appearance sync to other players by only sending updates when the anchor data actually changed.",
-        "Added a Shared.Sync.Enabled option to turn off drawing face make-up, face shape and height on other players' peds."
+        "This is an experimental update, please back up your current version before installing and report any issues",
+        "to us.",
+        "Fixed FPS drops and stutter in the appearance menu, especially in the face, clothing and tattoo views.",
+        "Improved performance when changing clothes and syncing other players' looks.",
+        "Fixed clothes clipping after changing a colour or dye.",
+        "Fixed under-layers clipping after toggling a coat with commands like /coat.",
+        "Improved how shirts sit under NPC vests and coats.",
+        "Fixed faces looking different to other players than to the owner.",
+        "Added syncing of clothing fit, body fit and shirt layering, so other players see the same fit.",
+        "Fixed makeup and eyebrows sometimes missing after spawn."
       ],
       "download": "https://portal.cfx.re/assets/granted-assets"
     },
