@@ -17,9 +17,14 @@
       "download": "https://portal.cfx.re/assets/granted-assets"
     },
     "v-emotemenuv2": {
-      "version": "2.0.0",
-      "updated": "2026-11-19",
-      "changes": [],
+      "version": "2.0.1",
+      "updated": "2026-11-26",
+      "changes": [
+        "Fixed addon emotes such as the gang signs and the pose packs not playing since 2.0.0.",
+        "(If some emotes still do not play after updating: close RedM fully and delete",
+        "%localappdata%\\RedM\\RedM.app\\data\\server-cache-priv on your PC. Then delete your server's cache folder and",
+        "restart the server.)"
+      ],
       "download": "https://portal.cfx.re/assets/granted-assets"
     },
     "v-loadingscreenv2": {
